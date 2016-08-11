@@ -30,5 +30,5 @@ dcpt = dcipher.decrypt(textToCipher)
 
 print(dcpt)
 
-encodedtext = iv + cipher.encrypt(secret)
-decodedtext = str(cipher.decrypt(encodedtext))[16:] #remove iv
+#encodedtext = iv + cipher.encrypt(secret)
+#decodedtext = str(cipher.decrypt(encodedtext))[16:] #remove iv
